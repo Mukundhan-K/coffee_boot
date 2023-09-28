@@ -1,0 +1,48 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;600&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 71px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+#home{
+    height: 45rem;
+    width: 100%;
+    padding: 12rem 0;
+
+    background: url("./images/home-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1,h2,h3,h4{
+    font-family: 'Merienda', cursive !important;
+}
+
+h1{
+    font-weight: 700 !important;
+}
+
+.headimg{
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+footer i{
+    background-color: #BE9C79 !important;
+    color: white; 
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+@media (max-width:556px){
+    #homebgg{
+        background-color: #ffffff44;
+    }
+}
